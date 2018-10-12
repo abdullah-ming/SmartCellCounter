@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Smart Cell Counter</string>
+
+    <string name="action_select">acquire</string>
+    <string name="title_activity_second">Smart Cell Counter
+</string>
+
+</resources>

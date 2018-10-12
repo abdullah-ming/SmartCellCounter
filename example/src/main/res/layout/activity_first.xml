@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/my2layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soundcloud.android.crop.example.FirstActivity"
+    android:background="@drawable/a5">
+
+    <ImageView
+        android:id="@+id/result1_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/n2" />
+
+    <Button
+        android:id="@+id/firstbutton_1"
+        android:layout_below="@id/result1_image"
+
+        android:background="@drawable/bt_shape"
+        android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="START"/>
+    <Button
+        android:id="@+id/firstbutton_2"
+        android:layout_below="@id/firstbutton_1"
+
+        android:background="@drawable/bt_shape"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="INSTRUCTIONS"/>
+    <Button
+        android:id="@+id/firstbutton_3"
+        android:layout_below="@id/firstbutton_2"
+
+        android:background="@drawable/bt_shape"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="QUIT"/>
+
+</RelativeLayout>
+
